@@ -1,0 +1,22 @@
+uuid: fb20e1ad-32c4-4f31-87a9-5e77c9536c3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_powered
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'By Andre'
+  label_display: visible
+  provider: system
+visibility: {  }
