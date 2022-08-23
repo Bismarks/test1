@@ -60,5 +60,7 @@
 /drush
 /drupal.phar
 /drupal
+# added for me
 *.gz
 *.sql
+/web/modules/contrib
